@@ -22,12 +22,12 @@
 
 ## Phase 2: Navigation
 
-- [ ] Install and configure React Navigation (native stack + bottom tabs)
-- [ ] Create root navigator (`src/navigation/RootNavigator.tsx`)
-- [ ] Create auth navigator (`src/navigation/AuthNavigator.tsx`)
-- [ ] Create main/tab navigator (`src/navigation/MainNavigator.tsx`)
-- [ ] Define route types (`src/types/navigation.ts`)
-- [ ] Implement deep linking configuration
+- [x] Install and configure React Navigation (native stack + bottom tabs)
+- [x] Create root navigator (`src/navigation/RootNavigator.tsx`)
+- [x] Create auth navigator (`src/navigation/AuthNavigator.tsx`)
+- [x] Create main/tab navigator (`src/navigation/MainNavigator.tsx`)
+- [x] Define route types (`src/types/navigation.ts`)
+- [x] Implement deep linking configuration
 
 ---
 
