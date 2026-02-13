@@ -33,12 +33,12 @@
 
 ## Phase 3: Theming & Styling
 
-- [ ] Create color constants (`src/constants/colors.ts`)
-- [ ] Create typography constants (`src/constants/typography.ts`)
-- [ ] Create spacing/sizing constants (`src/constants/dimensions.ts`)
-- [ ] Create global theme object (`src/styles/theme.ts`)
-- [ ] Add dark mode support with context/provider
-- [ ] Create common style utilities (`src/styles/commonStyles.ts`)
+- [x] Create color constants (`src/constants/colors.ts`)
+- [x] Create typography constants (`src/constants/typography.ts`)
+- [x] Create spacing/sizing constants (`src/constants/dimensions.ts`)
+- [x] Create global theme object (`src/styles/theme.ts`)
+- [x] Add dark mode support with context/provider
+- [x] Create common style utilities (`src/styles/commonStyles.ts`)
 
 ---
 

@@ -1,0 +1,67 @@
+export const COLORS = {
+  // Primary
+  PRIMARY: '#007AFF',
+  PRIMARY_LIGHT: '#4DA3FF',
+  PRIMARY_DARK: '#0056CC',
+
+  // Secondary
+  SECONDARY: '#5856D6',
+  SECONDARY_LIGHT: '#7A79E0',
+  SECONDARY_DARK: '#3E3CB0',
+
+  // Accent
+  ACCENT: '#FF9500',
+  ACCENT_LIGHT: '#FFB84D',
+  ACCENT_DARK: '#CC7700',
+
+  // Success / Error / Warning / Info
+  SUCCESS: '#34C759',
+  ERROR: '#FF3B30',
+  WARNING: '#FF9500',
+  INFO: '#5AC8FA',
+
+  // Grayscale
+  BLACK: '#000000',
+  DARK: '#1C1C1E',
+  GRAY_900: '#2C2C2E',
+  GRAY_800: '#3A3A3C',
+  GRAY_700: '#48484A',
+  GRAY_600: '#636366',
+  GRAY_500: '#8E8E93',
+  GRAY_400: '#AEAEB2',
+  GRAY_300: '#C7C7CC',
+  GRAY_200: '#D1D1D6',
+  GRAY_100: '#E5E5EA',
+  GRAY_50: '#F2F2F7',
+  LIGHT: '#F5F5F5',
+  WHITE: '#FFFFFF',
+
+  // Background
+  BACKGROUND_LIGHT: '#FFFFFF',
+  BACKGROUND_DARK: '#000000',
+  SURFACE_LIGHT: '#F2F2F7',
+  SURFACE_DARK: '#1C1C1E',
+  CARD_LIGHT: '#FFFFFF',
+  CARD_DARK: '#2C2C2E',
+
+  // Text
+  TEXT_PRIMARY_LIGHT: '#000000',
+  TEXT_PRIMARY_DARK: '#FFFFFF',
+  TEXT_SECONDARY_LIGHT: '#636366',
+  TEXT_SECONDARY_DARK: '#AEAEB2',
+  TEXT_DISABLED_LIGHT: '#C7C7CC',
+  TEXT_DISABLED_DARK: '#48484A',
+
+  // Border
+  BORDER_LIGHT: '#E5E5EA',
+  BORDER_DARK: '#3A3A3C',
+
+  // Overlay
+  OVERLAY: 'rgba(0, 0, 0, 0.5)',
+  OVERLAY_LIGHT: 'rgba(0, 0, 0, 0.3)',
+
+  // Transparent
+  TRANSPARENT: 'transparent',
+} as const;
+
+export type ColorKey = keyof typeof COLORS;
